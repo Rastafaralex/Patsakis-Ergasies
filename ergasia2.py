@@ -19,7 +19,7 @@ def funct(str):
         for h in wordList[a]:#metraw posa gramata exi kathe leksi edo 
             la[a]=la.get(a,0)+1
             leterwords = leterwords + 1
-            #ta vazw kai int giati mu evgaze sfalma oti kai kala den einai int kati..
+            #ta vazw kai int giati prepei na ta lavw san arithmus
             f_l = int(wordList[a].count('f')) # posa f ta
             F = int(wordList[a].count('F')) 
             c_l = int(wordList[a].count('c')) # posa c
